@@ -1,0 +1,49 @@
+# Node / JS
+node_modules/
+dist/
+dist-electron/
+build/
+.next/
+.svelte-kit/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Rust
+target/
+Cargo.lock
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# Data files & Local databases
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.msg
+
+# Binaries & OS artifacts
+*.exe
+*.dll
+*.zip
+*.tar.gz
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
